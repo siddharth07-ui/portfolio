@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-(pe8!(p%3vt3eppv4!)13io!c)3vxs^jmx560gr(_8a&cr3)+-
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -83,7 +83,6 @@ WSGI_APPLICATION = 'project_portfolio.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 import dj_database_url
-
 
 DATABASES = {
     'default': {
