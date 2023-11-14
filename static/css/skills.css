@@ -140,18 +140,18 @@ span {
 }
 
 .card:not(:first-child) {
-    margin-left: -250px;
+    margin-left: -225px;
 }
 
 .card:hover {
-    transform: translateY(-20px);
+    transform: translateY(-25px);
     transition: 0.4s ease-out;
     transition-duration: var(--transition-speed);
 }
 
 .card:hover~.card {
     position: relative;
-    left: 300px;
+    left: 10.5rem;
     transition: 0.4s ease;
     transition-duration: var(--transition-speed);
 }

@@ -129,22 +129,20 @@ body{
     align-items : center;
     justify-content : center;
     flex-wrap : wrap;
-    padding : 1.5rem;  
 }
 
 #services-container h3 {
-    padding-top: 1rem;
     font-weight: bold;
     font-size: large;
 }
   
 #services-container .card {
     position: relative;
-    max-width : 640px;
+    max-width : 600px;
     height : 225px;  
     background-color : #fff;
-    margin : 30px 10px;
-    padding : 20px 15px;
+    margin : 20px 10px;
+    padding : 15px 15px;
     display : flex;
     flex-direction : column;
     box-shadow : 0 5px 20px rgba(0,0,0,0.5);
@@ -154,7 +152,7 @@ body{
 }
 
 #services-container .card:hover {
-    height : 450px;
+    height : 400px;
 }
   
 #services-container .card .image {
@@ -175,7 +173,7 @@ body{
 #services-container .card .content {
     position : relative;
     top : -140px;
-    padding : 9rem 2.5rem;
+    padding : 8.5rem 2.5rem;
     font-weight: 650;
     color : #111;
     text-align : left;
@@ -185,7 +183,6 @@ body{
 }
   
 #services-container .card:hover .content {
-     /* margin-top : 1.5rem; */
      visibility : visible;
      opacity : 1;
      transition-delay: 0.2s;

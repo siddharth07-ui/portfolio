@@ -104,7 +104,6 @@ body{
 }
 
 .main-text{
-    padding-top: 1rem;
     width: 100%;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -129,18 +128,17 @@ body{
     align-items : center;
     justify-content : center;
     flex-wrap : wrap;
-    padding : 1.5rem;  
+    gap: 1.5rem;
 }
 
 #services-container h3 {
-    padding-top: 1rem;
     font-weight: bold;
     font-size: large;
 }
   
 #services-container .card {
     position: relative;
-    max-width : 640px;
+    max-width : 550px;
     height : 225px;  
     background-color : #fff;
     margin : 30px 10px;
@@ -154,7 +152,7 @@ body{
 }
 
 #services-container .card:hover {
-    height : 450px;
+    height : 420px;
 }
   
 #services-container .card .image {
@@ -175,8 +173,8 @@ body{
 #services-container .card .content {
     position : relative;
     top : -140px;
-    padding : 8rem 2.5rem;
-    font-weight: 650;
+    padding : 7.5rem 2.5rem;
+    font-weight: 625;
     color : #111;
     text-align : left;
     visibility : hidden;
@@ -185,11 +183,10 @@ body{
 }
   
 #services-container .card:hover .content {
-     margin-top : 1.5rem;
      visibility : visible;
      opacity : 1;
-     transition-delay: 0.2s;
-     transition-duration: 800ms;
+     transition-delay: 0.4s;
+     transition-duration: 700ms;
      color: #00b4d8;
 }
 
@@ -209,7 +206,7 @@ body{
 .icon-services{
     display: flex;
     justify-content: center;
-    padding: 0.8rem 0 0 5rem;
+    padding-left: 5rem;
 }
 
 .icon-services i{
@@ -246,11 +243,11 @@ body{
 }
 
 .servicesItem h3{
-    margin: 1rem 0 0.5rem;
+    margin-top: 1rem;
 }
 
 .servicesItem p{
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 0.9rem;
     font-weight: bold;
     color: var(--font-color);
