@@ -1,2 +1,4 @@
 dj_database_url==2.1.0
 Django==4.2.7
+Requests==2.31.0
+GitPython==3.1.40
