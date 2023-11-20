@@ -28,7 +28,7 @@ def update(request):
         '''
         repo = git.Repo("portfolio/")
         origin = repo.remotes.origin
-        origin.pull('origin', 'main')
+        origin.pull()
 
         return HttpResponse("Updated code on PythonAnywhere")
     else:
