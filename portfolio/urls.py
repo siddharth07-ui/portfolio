@@ -22,5 +22,5 @@ urlpatterns = [
     path('skills/', about, name='skills'),
     path('exp/', experience, name='exp'),
     path('educt/', education, name='edu'),
-    path("update_server/", update, name='update')
+    path('update_server/', update, name='update')
 ]
